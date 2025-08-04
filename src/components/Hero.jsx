@@ -153,7 +153,7 @@ const Hero = () => {
           <i className="bx bx-check-circle mr-1 text-amber-500"></i> Responsive
         </div>
       </div>
-      <div className="hidden md:block absolute top-16 right-[20%] lg:top-20 lg:right-[20%] animate-bounce delay-300">
+      <div className="hidden md:block absolute top-16 right-[20%] lg:top-20 lg:right-[20%] animate-bounce">
         <div className="bg-neutral-900 text-white px-2.5 py-1.5 rounded-lg text-xs lg:text-sm flex items-center shadow-lg">
           <i className="bx bx-check-circle mr-1 text-amber-500"></i> Accessible
         </div>

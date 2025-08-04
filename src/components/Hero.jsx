@@ -1,4 +1,6 @@
 import React from "react";
+import codeLight from "/images/code-light.png";
+import codeDark from "/images/code-dark.png";
 
 const Hero = () => {
   return (
@@ -105,12 +107,12 @@ const Hero = () => {
                 </div>
                 <div className="h-56 md:h-64 lg:h-60 xl:h-72 rounded-lg bg-neutral-100 dark:bg-neutral-800 overflow-hidden relative">
                   <img
-                    src="/images/code-light.png"
+                    src={codeLight}
                     alt="Code snippet for light mode"
                     className="w-full h-full object-cover object-left-top dark:hidden"
                   />
                   <img
-                    src="/images/code-dark.png"
+                    src={codeDark}
                     alt="Code snippet for dark mode"
                     className="w-full h-full object-cover object-left-top dark:block"
                   />
